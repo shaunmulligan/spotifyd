@@ -8,7 +8,7 @@ version = "0.2.18"
 alsa = { version = "0.2", optional = true }
 chrono = "0.4"
 daemonize = "0.4"
-dbus = { version = "0.6", optional = true }
+dbus = { version = "0.7", optional = true }
 dbus-tokio = { version = "0.2", optional = true }
 failure = "0.1.5"
 futures = "0.1"

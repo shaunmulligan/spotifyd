@@ -156,7 +156,7 @@ fn create_dbus_server(
 
     // TODO: allow other DBus types through CLI and config entry.
     let connection = Rc::new(
-        Connection::get_private(BusType::Session).expect("Failed to initialize DBus connection"),
+        Connection::get_private(BusType::System).expect("Failed to initialize DBus connection"),
     );
 
     connection
